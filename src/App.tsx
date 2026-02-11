@@ -19,16 +19,18 @@ const App: React.FC = () => {
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <div className="w-16 h-16 bg-gradient-to-br from-[#9CCC65] to-[#7CB342] rounded-full flex items-center justify-center shadow-lg">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              {/* Building structure */}
-              <path d="M16 8L10 12V26H22V12L16 8Z" fill="white"/>
-              {/* Door */}
-              <rect x="14" y="20" width="4" height="6" fill="#689F38"/>
-              {/* Windows */}
-              <rect x="12" y="15" width="2" height="2" fill="#689F38"/>
-              <rect x="18" y="15" width="2" height="2" fill="#689F38"/>
-              {/* Roof detail */}
-              <circle cx="16" cy="10" r="1.5" fill="white"/>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              {/* Building with columns */}
+              <rect x="7" y="12" width="16" height="13" fill="white"/>
+              {/* Triangular pediment/roof */}
+              <path d="M5 12 L15 5 L25 12 Z" fill="white"/>
+              {/* Three columns */}
+              <rect x="9" y="14" width="2.5" height="11" fill="#689F38"/>
+              <rect x="13.75" y="14" width="2.5" height="11" fill="#689F38"/>
+              <rect x="18.5" y="14" width="2.5" height="11" fill="#689F38"/>
+              {/* Circle/clock on pediment */}
+              <circle cx="15" cy="9" r="2.5" fill="white"/>
+              <circle cx="15" cy="9" r="1" fill="#689F38"/>
             </svg>
           </div>
         </div>
